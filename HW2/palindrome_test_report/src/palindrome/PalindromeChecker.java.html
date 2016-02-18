@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../.resources/report.gif" type="image/gif"/><title>PalindromeChecker.java</title><link rel="stylesheet" href="../../../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=2;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../.sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">ClassTest (Feb 17, 2016 3:22:53 AM)</a> &gt; <a href="../../index.html" class="el_group">palindrome</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">palindrome</a> &gt; <span class="el_source">PalindromeChecker.java</span></div><h1>PalindromeChecker.java</h1><pre class="source lang-java linenums">package palindrome;
+
+/**
+ * This is a class used to check if the string satisfies the rule of palindrome.
+ * @author Hanyu Yang
+ *
+ */
+public class PalindromeChecker {
+  
+  private MyStack&lt;Character&gt; s1;
+  private MyStack&lt;Character&gt; s2;
+  
+  /**
+   * The constructor of palindrome -- It initializes a PalindromeChecker class.
+   */
+<span class="fc" id="L16">  public PalindromeChecker() {</span>
+<span class="fc" id="L17">    s1 = new MyStack&lt;Character&gt;();</span>
+<span class="fc" id="L18">    s2 = new MyStack&lt;Character&gt;();</span>
+<span class="fc" id="L19">  }</span>
+  
+  /**
+   * This method will check the string is palindrome or not
+   * @param str The string is checked.
+   * @return If the string satisfies the rule, returns true, else returns not.
+   */
+  public boolean check(String str) {
+<span class="fc" id="L27">    int size = 0;</span>
+<span class="fc" id="L28">    s1 = new MyStack&lt;Character&gt;();</span>
+<span class="fc" id="L29">    s2 = new MyStack&lt;Character&gt;();</span>
+<span class="fc bfc" id="L30" title="All 2 branches covered.">    for (int i = 0;i &lt; str.length();i++) {</span>
+<span class="fc bfc" id="L31" title="All 2 branches covered.">      if (isChar(str.charAt(i))) {</span>
+<span class="fc" id="L32">        s1.push(str.charAt(i));</span>
+      }
+    }
+<span class="fc" id="L35">    size = s1.size();</span>
+<span class="fc bfc" id="L36" title="All 2 branches covered.">    if (size == 0) {</span>
+<span class="fc" id="L37">      return true;</span>
+    }
+<span class="fc bfc" id="L39" title="All 2 branches covered.">    for (int i = size; i &gt; (size / 2); i--) {</span>
+<span class="fc" id="L40">      s2.push(s1.pop());</span>
+    }
+<span class="fc bfc" id="L42" title="All 2 branches covered.">    if (s2.size() &gt; size / 2) {</span>
+<span class="fc" id="L43">      s2.pop();</span>
+    }
+<span class="fc bfc" id="L45" title="All 2 branches covered.">    while (!s1.isEmpty()) {</span>
+<span class="fc bfc" id="L46" title="All 2 branches covered.">      if (Character.toLowerCase(s1.pop()) != Character.toLowerCase(s2.pop())) {</span>
+<span class="fc" id="L47">        return false;</span>
+      }
+    }
+<span class="fc" id="L50">    return true;</span>
+  }
+  
+  /**
+   * This method is used to tell the character is valid or not.
+   * @param ch The character we want to check.
+   * @return It returns true if the character is valid, false if not.
+   */
+  public boolean isChar(char ch) {
+<span class="fc bfc" id="L59" title="All 12 branches covered.">    return (ch &gt;= 48 &amp;&amp; ch &lt;= 57 || ch &gt;= 65 &amp;&amp; ch &lt;= 90 || ch &gt;= 97 &amp;&amp; ch &lt;= 122);</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.2.201409121644</span>ClassTest (Feb 17, 2016 3:22:53 AM)</div></body></html>

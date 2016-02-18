@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../.resources/report.gif" type="image/gif"/><title>MyGenericLinkedList.java</title><link rel="stylesheet" href="../../../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=2;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../.sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">ClassTest (Feb 17, 2016 3:22:53 AM)</a> &gt; <a href="../../index.html" class="el_group">palindrome</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">palindrome</a> &gt; <span class="el_source">MyGenericLinkedList.java</span></div><h1>MyGenericLinkedList.java</h1><pre class="source lang-java linenums">package palindrome;
+
+/**
+ * Our implementation of LinkedList using MyNode.
+ * @author Hanyu Yang
+ *
+ */
+public class MyGenericLinkedList&lt;T&gt; {
+
+  private MyGenericNode&lt;T&gt; head;
+  private int size;
+
+  /**
+   * The constructor - initializes an empty linked list.
+   */
+<span class="fc" id="L16">  public MyGenericLinkedList() {</span>
+<span class="fc" id="L17">    head = null;</span>
+<span class="fc" id="L18">    size = 0;</span>
+<span class="fc" id="L19">  }</span>
+
+  /**
+   * This method will create a new node.
+   * It will add it as the first node of the linked list.
+   * @param value the value to be added
+   */
+  public void addFirst(T value) {
+
+<span class="fc" id="L28">    MyGenericNode&lt;T&gt; node = new MyGenericNode&lt;T&gt;(value);</span>
+<span class="fc" id="L29">    node.next = head;</span>
+<span class="fc" id="L30">    head = node;</span>
+<span class="fc" id="L31">    size++;</span>
+<span class="fc" id="L32">  }</span>
+
+  /**
+   * This method will create a new node.
+   * It will add it as the last node of the linked list.
+   * @param value the value to be added
+   */
+  public void addLast(T value) {
+
+<span class="fc bfc" id="L41" title="All 2 branches covered.">    if (getSize() == 0) {</span>
+<span class="fc" id="L42">      addFirst(value);</span>
+<span class="fc" id="L43">    } else {</span>
+<span class="fc" id="L44">      MyGenericNode&lt;T&gt; node = new MyGenericNode&lt;T&gt;(value);</span>
+
+<span class="fc" id="L46">      MyGenericNode&lt;T&gt; i = head;</span>
+
+<span class="fc bfc" id="L48" title="All 2 branches covered.">      while (i.next != null) {</span>
+<span class="fc" id="L49">        i = i.next;</span>
+      }
+
+<span class="fc" id="L52">      i.next = node;</span>
+<span class="fc" id="L53">      size++;</span>
+    }
+<span class="fc" id="L55">  }</span>
+
+//  /**
+//   * This methods displays the contents of the linked list.
+//   */
+//  public void display() {
+//
+//    if (getSize() != 0) {
+//
+//
+//      MyGenericNode&lt;T&gt; i = head;
+//
+//      System.out.println(&quot;Printing out the contents of the linked list&quot;);
+//
+//      while (i.next != null) {
+//        System.out.print(i.value + &quot; ---&gt; &quot;);
+//        i = i.next;
+//      }
+//            
+//      System.out.print(i.value);
+//    }
+//  }
+
+  /**
+   * This method is used to tell the size of ll.
+   * @return It returns the size of Linkedlist.
+   */
+  public int getSize() {
+<span class="fc" id="L83">    return size;</span>
+  }
+  
+  /**
+   * This method is used to give the head node of linkedlist.
+   * @return It returns the head node of linkedlist.
+   */
+  public MyGenericNode&lt;T&gt; getHead() {
+<span class="fc" id="L91">    return head;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.2.201409121644</span>ClassTest (Feb 17, 2016 3:22:53 AM)</div></body></html>

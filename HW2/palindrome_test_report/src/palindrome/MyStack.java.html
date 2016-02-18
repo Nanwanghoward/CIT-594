@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../.resources/report.gif" type="image/gif"/><title>MyStack.java</title><link rel="stylesheet" href="../../../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=2;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../.sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">ClassTest (Feb 17, 2016 3:22:53 AM)</a> &gt; <a href="../../index.html" class="el_group">palindrome</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">palindrome</a> &gt; <span class="el_source">MyStack.java</span></div><h1>MyStack.java</h1><pre class="source lang-java linenums">package palindrome;
+
+import java.util.EmptyStackException;
+
+/**
+ * Our implementation of Stack.
+ * Uses a String for the value. Could use int, double, other objects or generics.
+ * @author Hanyu Yang
+ *
+ * @param &lt;T&gt; Generic type
+ */
+public class MyStack&lt;T&gt; extends MyGenericLinkedList&lt;T&gt; {
+  
+  private MyGenericNode&lt;T&gt; head;
+  private int size;
+  
+  /**
+   * Constructor of Mystack -- It initializes an empty stack.
+   * 
+   */
+<span class="fc" id="L21">  public MyStack() {</span>
+<span class="fc" id="L22">    head = null;</span>
+<span class="fc" id="L23">    size = 0;</span>
+<span class="fc" id="L24">  }</span>
+  
+  /**
+   * This method will take an generic element to push it into stack.
+   * @param value Generic type parameter value is pushed into stack.
+   * @return It returns the element pushed into stack.
+   */
+  public T push(T value) {
+<span class="fc" id="L32">    MyGenericNode&lt;T&gt; node = new MyGenericNode&lt;T&gt;(value);</span>
+<span class="fc" id="L33">    node.next = head;</span>
+<span class="fc" id="L34">    head = node;</span>
+<span class="fc" id="L35">    size++;</span>
+<span class="fc" id="L36">    return value;</span>
+  }
+  
+  /**
+   * This method will pop out the first element of stack.
+   * @return It returns the element which is popped out.
+   */
+  public T pop() {
+    T value;
+<span class="fc bfc" id="L45" title="All 2 branches covered.">    if (size == 0) {</span>
+<span class="fc" id="L46">      throw new EmptyStackException();</span>
+    }
+<span class="fc" id="L48">    value = head.value;</span>
+<span class="fc" id="L49">    head = head.next;</span>
+<span class="fc" id="L50">    size--;</span>
+<span class="fc" id="L51">    return value;</span>
+  }
+  
+  /**
+   * This method will give the current size of stack.
+   * @return It returns the size of stack.
+   */
+  public int size() {
+<span class="fc" id="L59">    return size;</span>
+  }
+  
+  /**
+   * This method will tell us if this stack is empty or not.
+   * @return It returns true if empty, false if not.
+   */
+  public boolean isEmpty() {
+<span class="fc bfc" id="L67" title="All 2 branches covered.">    return (size == 0);</span>
+  }  
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.2.201409121644</span>ClassTest (Feb 17, 2016 3:22:53 AM)</div></body></html>
