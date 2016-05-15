@@ -1,0 +1,7 @@
+This is a hangman game implementation. The difference between the original one is the computer doesn’t choose a certain word from the beginning, but choose several word families with certain pattern sequently. 
+It uses JFileChooser to do FILE I/O, first read in the dictionary. Store the all words into a HashMap, key as length of word, value as a ArrayList of words with corresponding length.
+Then let player choose the length she want to play. So that it can use map to get the ArrayList with certain length.  
+After that, it receives the letter the player pass in, transverse every word in certain ArrayList, calculate the every word’s pattern using binary number. For example. Player picks the letter E, in word __E__E, we calculate the position has E, use the position number as index of 2, get the unique number of this word pattern.
+So that in this word, we get 2^(3-1)+2^(6-1) = 36, since we have #3, #5 position has E. After that, we get the HashMap, key as the unique number for word pattern, value as ArrayList of word family.
+Then we call method to decide which word family we want to choose based on the size of certain word family in each round.
+When player get all letters revealed, player won, else, computer randomly picks a word in certain word family, player loses. 

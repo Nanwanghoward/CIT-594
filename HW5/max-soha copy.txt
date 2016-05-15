@@ -1,0 +1,384 @@
+Bruschetta Al Pomodoro
+5.50
+Crostino Con Carciofi
+5.50
+Calamari Alla Griglia
+7.95
+Misto Di Vegetali Alla Griglia
+6.95
+Portobello Mushrooms
+6.95
+Caprese mozzarella di bufala, tomatoes, and basil
+8.95
+Carpaccio classic beef carpaccio with arugula and shaved parmigiano cheese
+7.95
+Prosciutto E Mozzarella Di Bufala
+9.95
+Zuppe Del Giorno
+5.95
+Insalata Di Barbabietole Con Caprino
+7.50
+Insalata Di Finocchio E Arugula
+6.95
+Insalata Mista
+5.95
+Insalata Di Rucola
+7.95
+La Pugliese
+10.95
+Spaghetti Chitarra Ragu D'Agnello
+11.95
+Ortolana
+10.95
+Rigatoni Alla Siciliana
+10.95
+Gnocchi Alla Sorrentina
+10.95
+Fettucine Al Funghi
+12.95
+Polpettine D'Agnello
+10.95
+Lasagna Fatta In Casa
+12.95
+Spaghetti Alla Carbonara
+11.95
+Fettuccine Al Sugo Toscano
+11.95
+Spaghetti Alle Vongole
+12.95
+Penne Alla Vodka
+10.95
+Fusilli Al Ragu Di Brunello
+11.95
+Linguini Del Pescatore
+15.95
+Tilapia Francese
+13.95
+Salmone Alla Griglia
+15.95
+Tagliata
+15.95
+Pollo Marsala
+12.95
+Baccala Al Forno
+14.95
+Bruschetta Al Pomodoro
+5.50
+Crostino Con Carciofi
+5.50
+Calamari Alla Griglia
+7.95
+Misto Di Vegetali Alla Griglia
+6.95
+Portobello Mushrooms
+6.95
+Caprese mozzarella di bufala, tomatoes, and basil
+8.95
+Carpaccio classic beef carpaccio with arugula and shaved parmigiano cheese
+7.95
+Prosciutto E Mozzarella Di Bufala
+9.95
+Zuppe Del Giorno
+5.95
+Insalata Di Barbabietole Con Caprino
+7.50
+Insalata Di Finocchio E Arugula
+6.95
+Insalata Mista
+5.95
+Insalata Di Rucola
+7.95
+La Pugliese
+10.95
+Spaghetti Chitarra Ragu D'Agnello
+11.95
+Ortolana
+10.95
+Rigatoni Alla Sicilia
+10.95
+Gnocchi Alla Sorrenti
+10.95
+Fettucine Al Fung
+12.95
+Polpettine D'Agne
+10.95
+Lasagna Fatta In Ca
+12.95
+Spaghetti Alla Carbona
+11.95
+Fettuccine Al Sugo Tosca
+11.95
+Spaghetti Alle Vongo
+12.95
+Penne Alla Vod
+10.95
+Fusilli Al Ragu Di Brune
+11.95
+Linguini Del Pescat
+15.95
+Tilapia France
+13.95
+Salmone Alla Grigl
+15.95
+Taglia
+15.95
+Pollo Marsa
+12.95
+Baccala Al For
+14.95
+Bruschetta Al Pomodo
+5.50
+Crostino Con Carcio
+5.50
+Calamari Alla Grigl
+7.95
+Misto Di Vegetali Alla Gri
+6.95
+Portobello Mushr
+6.95
+Caprese mozzarella di bufala, tomatoes, and ba
+8.95
+Carpaccio classic beef carpaccio with arugulad shaved parmigiano cheese
+7.95
+Prosciutto E Mozzarella Di Buf
+9.95
+Zuppe Del Gio
+5.95
+Insalata Di Barbabietole CoCaprino
+7.6
+Insalata Di Finocchio E ugula
+6.95
+Insalata Mis
+5.95
+Insalata Di Rula
+7.95
+La Pugliese
+10.95
+Spaghetti Chitra Ragu D'Agnello
+11.95
+Ortona
+10.95
+Rigatoni Alla Siliana
+10.95
+Gnocchi Alla Sorntina
+10.95
+Fettucine Al Fghi
+12.95
+Polpettine D'nello
+10.95
+Lasagna FattIn Casa
+12.95
+Spaghetti All Carbonara
+11.95
+Fettuccine A Sugo Toscano
+11.95
+Spaghetti Ale Vongole
+12.95
+Penne Alla odka
+10.95
+Fusilli Al agu Di Brunello
+11.95
+Linguini el Pescatore
+15.95
+Tilapia Frncese
+13.9
+Salmone Ala Griglia
+15.95
+Tagliat
+15.95
+Pollo Marsla
+12.95
+Baccaa Al Forno
+14.95
+Bruschtta Al Pomodoro
+5.50
+Crostio Con Carciofi
+5.50
+Calamar Alla Griglia
+7.95
+Misto i Vegetali Alla Griglia
+6.95
+Portobelo Mushrooms
+6.95
+Caprese mzzarella di bufala, tomatoes, and basil
+8.95
+Carpaccio cassic beef carpaccio with arugula and shaved parmigiano cheese
+7.95
+Prosciutto E Mzzarella Di Bufala
+9.95
+Zuppe Del Girno
+5.95
+Insalata Di Barbbietole Con Caprino
+7.50
+Insalata Di Fincchio E Arugula
+6.95
+Insalata Mita
+5.95
+Insaata i Rucola
+7.95
+La Puliese
+10.95
+SpaghetiChitarra Ragu D'Agnello
+11.95
+Ortoana
+10.95
+Rigatoni Ala Sicliana
+10.95
+Gnocchi Alla Sorentina
+10.95
+Fettucine Al Fughi
+12.95
+Polpettine D'Agello
+10.95
+Lasagna Fatta In Csa
+12.95
+Spagetti Alla Carbonara
+11.95
+Fettucine Al Sugo Toscano
+11.95
+Spagetti Alle Vongole
+12.95
+Pene Alla Vodka
+10.95
+Fuslli Al Ragu Di Brunello
+11.95
+inguini Del Pescatore
+15.95
+Tiapia Francese
+13.95
+Slmone Alla Griglia
+15.95
+agliata
+15.95
+Pllo Marsala
+12.95
+accala Al Forno
+14.95
+Bruscetta Al Pomodoro
+5.50
+Crosino Con Carciofi
+5.50
+Calmari Alla Griglia
+7.95
+Mito Di Vegetali Alla Griglia
+6.95
+Prtobello Mushrooms
+6.95
+aprese mozzarella di bufala, tomatoes, and basil
+8.95
+Carpaccio classic beef carpaccio with arugula and shavedparmigiano cheese
+7.95
+Prosciutto E Mozzarella Di Bufal
+9.95
+Zuppe Del Giorn
+5.95
+Insalata Di Bababietole Con Caprino
+7.50
+Insalata Di Fnocchio E Arugula
+6.95
+Insalata Mia
+5.95
+Insalata D Rucola
+7.95
+La Puglie
+10.95
+Spagheti Chitarra Ragu D'Agnello
+11.95
+Ortolana
+10.95
+Rigatoni Alla Siciliana
+10.95
+Gnocchi Alla Sorrentina
+10.95
+Fettucine Al Funghi
+12.95
+Polpettine D'Agnello
+10.95
+Lasagna Fatta In Casa
+12.95
+Spaghetti Alla Carbonara
+11.95
+Fettuccine Al Sugo Toscano
+11.95
+Spaghetti Alle Vongole
+12.95
+Penne Alla Vodka
+10.95
+Fusilli Al Ragu Di Brunello
+11.95
+Linguini Del Pescatore
+15.95
+Tilapia Francese
+13.95
+Salmone Alla Griglia
+15.95
+Tagliata
+15.95
+Pollo Marsala
+12.95
+Baccala Al Forno
+14.95
+Bruschetta Al Pomodoro
+5.50
+Crostino Con Carciofi
+5.50
+Calamari Alla Griglia
+7.95
+Misto Di Vegetali Alla Griglia
+6.95
+Portobello Mushrooms
+6.95
+Caprese mozzarella di bufala, tomatoes, and basil
+8.95
+Carpaccio classic beef carpaccio with arugula and shaved parmigiano cheese
+7.95
+Prosciutto E Mozzarella Di Bufala
+9.95
+Zuppe Del Giorno
+5.95
+Insalata Di Barbabietole Con Caprino
+7.50
+Insalata Di Finocchio E Arugula
+6.95
+Insalata Mista
+5.95
+Insalata Di Rucola
+7.95
+La Pugliese
+10.95
+Spaghetti Chitarra Ragu D'Agnello
+11.95
+Ortolana
+10.95
+Rigatoni Alla Siciliana
+10.95
+Gnocchi Alla Sorrentina
+10.95
+Fettucine Al Funghi
+12.95
+Polpettine D'Agnello
+10.95
+Lasagna Fatta In Casa
+12.95
+Spaghetti Alla Carbonara
+11.95
+Fettuccine Al Sugo Toscano
+11.95
+Spaghetti Alle Vongole
+12.95
+Penne Alla Vodka
+10.95
+Fusilli Al Ragu Di Brunello
+11.95
+Linguini Del Pescatore
+15.95
+Tilapia Francese
+13.95
+Salmone Alla Griglia
+15.95
+Tagliata
+15.95
+Pollo Marsala
+12.95
+Baccala Al Forno
+14.95

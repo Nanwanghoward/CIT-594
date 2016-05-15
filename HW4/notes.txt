@@ -1,0 +1,61 @@
+req:
+a. Given a user u and item i, what is the system’s prediction for the user’s likely preference of that item?b. Given a user u and a threshold n, what are the n-highest predicted preferences for that user?
+
+
+
+
+
+recommender sys: (2 focus)
+1. predict task
+given a user and an item, give a user’s likely preference
+
+
+2.recommendation list
+given a user, produce the best ranked list of n items for user’s need
+trivial: n highest predicted item for the user’s need
+non-trivial: predicted preference may not be the only criteria used to produce recommendation list
+
+factor: 1. predicted preference, 2. recent watching history, 
+
+
+(users, items, ratings)
+rating type is unknown
+rating matrix is composed of triples containing unknown rating value.
+
+
+
+
+
+
+
+
+
+
+variable:
+Iu:is the set of items rated or purchased by user u
+Ui:is the set of users who have rated or purchased i
+R: rating matrix
+r(u,i):the rating user u provided for item i
+ru:the vector of all ratings provided by user u
+ri:the vector of all ratings provided by item i
+ru ba: the average rating of a user u
+ri ba: the average of an item i ratings
+
+variance:
+computing prediction:
+1.formula
+  #how many neighbors to select# (based on a similarity #threshold# or neighborhood size)
+  threshold k pre choosing 20-50, and  easy to change later.
+  
+2.similarity function choosing
+
+
+3.inserting new user and ratings
+
+
+
+reference:
+Collaborative filtering:
+1. k-Nearest Neighbor collaborative filtering(user-user CF)
+step one: 1. A similarity function s computing the similarity between two users.step two: 2. A method for using similarities and ratings to generate predictions.
+

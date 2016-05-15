@@ -1,0 +1,34 @@
+The java.awt.TextArea internally handles scrolling. JTextArea is different in that it doesn't manage scrolling, but implements the swing Scrollable interface. This allows it to be placed inside a JScrollPane if scrolling behavior is desired, and used directly if scrolling is not desired.
+
+//scrollabel on menu has benn ordered
+//row and column 
+//add and remove
+
+//scrollable to satisfied resizable req
+or use gridbag!
+
+//overlapping layer ** why
+
+solved:
+get sys time
+print certain dir file list
+write file open file create file
+JTextPane format
+linewrap 
+MVC
+Scrollable Pane
+
+ 
+
+
+
+
+//scrollable menu **
+//JTextArea display 30min
+//remove/add item after solve scrollable display 30min //not necessary
+
+ handle displaying large menus, which may not all fit on the same screen. You are encouraged to browse through the Java UI classes to find useful classes (beyond the ones we’ve already seen in class) to make the display look nice.
+
+
+
+
